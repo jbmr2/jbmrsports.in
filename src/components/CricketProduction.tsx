@@ -8,10 +8,10 @@ import { serviceBroadcastTech } from '../constants/assets';
 
 export const CricketProduction = () => {
   const features = [
-    { icon: Video, title: 'Multi-Camera Production', desc: 'From 4-Cam setups to 18-Cam international standard cinematic coverage.' },
-    { icon: Tv, title: 'Live Broadcasting', desc: 'Zero-latency live telecast feeds and digital streaming across networks.' },
-    { icon: Layout, title: 'Replay & Multi-Angle', desc: 'Ultra slow-motion, third-umpire capabilities, and action replays.' },
-    { icon: Mic2, title: 'Commentary & Graphics', desc: 'Professional commentary panels paired with real-time broadcast graphics.' },
+    { icon: Video, title: 'Multi-Camera & 4K Setup', desc: 'From 4-Cam setups to 18-Camera international standard cinematic coverage with OB van infrastructure.' },
+    { icon: Tv, title: 'Live Broadcasting & Streaming', desc: 'Zero-latency telecast feeds, YouTube live cricket streaming, and digital multi-network distribution.' },
+    { icon: Layout, title: 'Slow-Mo & Replay Systems', desc: 'Ultra slow-motion replay engines, third-umpire camera angles, and professional action highlights.' },
+    { icon: Mic2, title: 'Graphics & Commentary', desc: 'Expert commentary panels paired with real-time live score overlays and dynamic broadcast graphics.' },
   ];
 
   return (
@@ -39,11 +39,11 @@ export const CricketProduction = () => {
             </h2>
             
             <p className="text-white/80 text-lg sm:text-xl font-medium mb-6 leading-relaxed">
-              Professional multi-camera cricket production, live broadcasting and digital coverage for tournaments, leagues, academies and cricket events across India.
+              Delivering premier <strong className="text-white">cricket tournament live streaming India</strong> and professional <strong className="text-white">18-camera 4K cricket live streaming</strong> for state, national, and international leagues.
             </p>
 
             <p className="text-white/60 text-base leading-relaxed mb-10">
-              As a leading <strong className="text-white">Cricket Production Company India</strong> and <strong className="text-white">Cricket Broadcasting Company India</strong>, we bring international TV standards to your local and national leagues. Our specialized <strong className="text-white">Cricket Live Streaming Production</strong> capabilities include everything from 4-Cam setups to robust 10+ Cam deployments with full graphics, live commentary, highlights, and post-match interviews.
+              As India's leading <strong className="text-white">Cricket Production Company</strong> and <strong className="text-white">Cricket Broadcasting Company</strong>, we provide state-of-the-art <strong className="text-white">OB van cricket broadcast service</strong> and robust <strong className="text-white">multi-camera cricket live stream setups</strong>. Equipped with advanced video switchers, <strong className="text-white">slow motion replay systems for cricket matches</strong>, and real-time graphics, we elevate every tournament to international broadcast standards.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-6 mb-10">

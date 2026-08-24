@@ -2289,7 +2289,7 @@ function AppContent() {
         description = "Meet the visionary leaders and technical experts behind JBMR Sports. Professional camera crew, PCR directors, and broadcast engineers for elite sports production.";
       } else if (normalizedPath === '/leadership') {
         title = "Leadership & Directors | JBMR Sports Pvt. Ltd.";
-        description = "Meet the executive visionaries behind JBMR Sports: Co-Founder & CEO Lokesh Yadav and Co-Founder & Technical Director Deepak Kumar.";
+        description = "Meet the founders and owners behind JBMR Sports: Founder, Owner & CEO Lokesh Yadav and Founder, Owner & Technical Director Deepak Kumar.";
       } else if (isLmsPage) {
         title = "LMS India Super Series Official Broadcast Partner | JBMR Sports";
         description = "Official live streaming and multi-camera broadcast production for Last Man Stands (LMS) India Super Series tournaments and international cricket events.";

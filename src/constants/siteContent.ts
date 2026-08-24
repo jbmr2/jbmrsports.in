@@ -493,7 +493,7 @@ export const defaultSiteContent = {
           productionBadge: 'JBMR On-Ground Production Partner',
           highlight: true,
           points: [
-            'Senior Elite Group T20 - Chhattisgarh District Association (BCCI Affiliated)',
+            'Senior Elite Group T20 - Chhattisgarh District Association',
             'Duration: 26 April - 07 May, 2025 | Matches: 23',
             'Colvin Shield - Rajasthan Cricket Association',
             'Colvin Shield Duration: June 6-25, 2025 | Matches: 63',
@@ -598,29 +598,29 @@ export const defaultSiteContent = {
     ],
   },
   leadership: {
-    title: 'The Visionaries Behind JBMR Sports',
-    subtitle: 'Leadership',
+    title: 'The Founders & Owners Behind JBMR Sports',
+    subtitle: 'Leadership & Founders',
     directors: [
       {
         image: lokeshImage,
         name: 'Lokesh Yadav',
-        role: 'Co-Founder, CEO & Director',
-        bio1: 'Lokesh Yadav, Co-Founder, Chief Executive Officer & Director of JBMR Sports Pvt. Ltd., is the visionary leader spearheading business growth, strategic partnerships, and tournament management across India.',
-        bio2: 'Under his leadership, JBMR Sports has grown from grassroots cricket coverage to national-level broadcasting and international sports productions.',
+        role: 'Founder, Owner, CEO & Director',
+        bio1: 'Lokesh Yadav, Founder, Owner, Chief Executive Officer & Director of JBMR Sports Pvt. Ltd., is the visionary leader who built JBMR Sports into India’s premier sports broadcasting powerhouse.',
+        bio2: 'Under his relentless dedication and dynamic leadership, JBMR Sports has scaled massive heights—producing over 500+ tournaments, 10,000+ matches, and establishing national standards in cricket broadcasting and player auction management.',
         socials: [
         ],
       },
       {
         image: deepakImage,
         name: 'Deepak Kumar',
-        role: 'Co-Founder & Technical Director',
-        bio1: 'Deepak Kumar, Co-Founder, Technical Director & Owner of JBMR Sports Pvt. Ltd., is the engineering pillar behind the company\'s multi-camera production setups, PCR systems, and live streaming infrastructure.',
-        bio2: 'With specialized mastery over video switcher operations, slow-motion replay engines, and extreme condition broadcasting, he ensures flawless technical execution for state, national, and international tournaments.',
+        role: 'Founder, Owner & Technical Director',
+        bio1: 'Deepak Kumar, Founder, Owner & Technical Director of JBMR Sports Pvt. Ltd., is the engineering genius behind the company’s advanced 18-camera 4K setups and OB van infrastructure.',
+        bio2: 'With master-level expertise in live video switchers, slow-motion replays, and robust multi-camera architecture, he ensures world-class broadcast quality across state, national, and international tournaments.',
         socials: [
         ],
       },
     ],
-    directorNote: 'JBMR Sports Pvt. Ltd. is founded and directed by Lokesh Yadav and Deepak Kumar, providing united executive leadership and broadcast engineering excellence.',
+    directorNote: 'JBMR Sports Pvt. Ltd. was founded, owned, and is led by visionary founders Lokesh Yadav and Deepak Kumar, uniting unmatched operational excellence with cutting-edge broadcast engineering.',
   },
   team: {
     title: 'Operations & Technical Team',

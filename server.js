@@ -129,8 +129,20 @@ app.get('/api/live-viewers', async (req, res) => {
   res.json({ activeCount: count });
 });
 
-// Serve static files from the dist directory
-app.use(express.static(path.join(__dirname, 'dist'), { index: false }));
+// Serve static files from the dist directory with aggressive caching for optimal mobile speed index
+app.use(express.static(path.join(__dirname, 'dist'), {
+  index: false,
+  maxAge: '30d',
+  etag: true,
+  lastModified: true,
+  setHeaders: (res, filePath) => {
+    if (filePath.endsWith('.html')) {
+      res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
+    } else {
+      res.setHeader('Cache-Control', 'public, max-age=2592000, immutable');
+    }
+  }
+}));
 
 app.get('*', (req, res) => {
   const filePath = path.join(__dirname, 'dist', 'index.html');
