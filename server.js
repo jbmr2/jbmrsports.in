@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename);
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Health Check
+// Health Check (Optimized for Node 22 & Hostinger SEO Express SSR routing)
 app.get('/status', (req, res) => {
   res.json({ 
     status: 'online', 
