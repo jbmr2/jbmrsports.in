@@ -1,0 +1,8 @@
+{
+  "name": "JBMR Sports Pvt. Ltd. - India’s Premier Cricket Broadcasting",
+  "description": "India’s Premier Cricket Broadcasting & Production Company. Delivering broadcast-quality cricket production with cutting-edge technology.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
